@@ -52,8 +52,8 @@ app.post("/contact", (req, res) => {
     to: req.body.email,
     subject: "Contact Form",
     html: `
-      <h3>Thank you for contacting us</h3>
-      <p>We will get back to you soon</p>
+      <h3>Thank you for contacting me</h3>
+      <p>I will get back to you soon</p>
     `,
   });
 
